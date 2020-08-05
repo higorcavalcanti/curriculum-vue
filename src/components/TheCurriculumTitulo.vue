@@ -27,6 +27,8 @@
 <style scoped lang="scss">
     .name {
         margin-bottom: 0;
+        display: flex;
+        align-items: center;
     }
     .contacts {
         text-align: right;

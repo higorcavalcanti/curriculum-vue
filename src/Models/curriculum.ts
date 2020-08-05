@@ -20,7 +20,8 @@ export function getCurriculum(): Curriculum {
     return {
         nome: 'Higor Cavalcanti',
         contatos: [
-            { type: CONTATO_TIPOS.whatsapp, phone: '(38) 99132-7995' },
+            { type: CONTATO_TIPOS.whatsapp, phone: 38991327995 },
+            { type: CONTATO_TIPOS.email, email: 'higordaniell@live.com' },
             { type: CONTATO_TIPOS.linkedin, linkedin: 'higor-cavalcanti' },
             { type: CONTATO_TIPOS.github, github: 'higorcavalcanti' },
         ],
@@ -30,7 +31,7 @@ export function getCurriculum(): Curriculum {
             { nome: 'Inglês avançado' },
             { nome: 'C# (.NET Core)' },
             { nome: 'Rápido aprendizado' },
-            { nome: 'Espírito de liderança' },
+            { nome: 'Espírito de equipe' },
             { nome: 'Desejo por desafios' },
         ],
         formacaoAcademica: [{
@@ -65,9 +66,9 @@ export function getCurriculum(): Curriculum {
                         saida: 'Atual',
                         atribuicoes: [
                             'Projetos internos da Esfera Energia',
-                            'Atuação como lider técnico dos projetos',
+                            'Atuação como líder técnico dos projetos',
                             'Desenvolvedor da arquitetura do ERP da Esfera Energia',
-                            'Utilização de TDD para o frontend',
+                            'Utilização de TDD para o front-end',
                         ],
                     },
                     {
@@ -84,7 +85,7 @@ export function getCurriculum(): Curriculum {
                         nome: 'Desenvolvedor Front-end Junior',
                         entrada: '2018',
                         atribuicoes: [
-                            'Projetos de Corretoras de Titulos e Valores Monetários (RBCapital, Lerosa Investimentos, Azimut Wealth)',
+                            'Projetos de Corretoras de Títulos e Valores Monetários (RBCapital, Lerosa Investimentos, Azimut Wealth)',
                             'Desenvolvedor Angular / C# .NET Core',
                         ],
                     }
@@ -106,7 +107,7 @@ export function getCurriculum(): Curriculum {
                 empresa: 'IPSoft Brasil',
                 entrada: '2017',
                 cargos: [{
-                    nome: 'Programador Frontend',
+                    nome: 'Programador Front-end',
                     atribuicoes: [
                         'Desenvolvedor do aplicativo VidaLeve com Ionic (Angular) e manutenção no backend em Java',
                         'Desenvolvedor do aplicativo Nota10 com Ionic (Angular) e manutenção no backend PHP/Laravel'

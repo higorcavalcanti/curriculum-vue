@@ -4,6 +4,7 @@ export enum CONTATO_TIPOS {
     whatsapp,
     linkedin,
     github,
+    email,
     custom
 }
 
@@ -13,7 +14,8 @@ export interface Contato {
     message?: string;
     url?: string;
 
-    phone?: string;
+    phone?: number;
     linkedin?: string;
     github?: string;
+    email?: string;
 }
