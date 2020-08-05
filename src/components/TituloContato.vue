@@ -5,7 +5,7 @@
             <img src="../assets/svg/whatsapp.svg">
         </a>
 
-        <a :href="'mailto' + contact.email" target="_blank" v-if="contact.type === CONTATO_TIPOS.email">
+        <a :href="'mailto:' + contact.email" target="_blank" v-if="contact.type === CONTATO_TIPOS.email">
             {{ contact.email }}
             <img src="../assets/svg/email.svg">
         </a>
