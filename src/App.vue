@@ -1,29 +1,55 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <the-curriculum></the-curriculum>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+  import { Component, Vue } from 'vue-property-decorator';
+  import TheCurriculum from './components/TheCurriculum.vue';
 
-@Component({
+  @Component({
   components: {
-    HelloWorld,
+    TheCurriculum
   },
 })
-export default class App extends Vue {}
+export default class App extends Vue {
+
+}
 </script>
 
 <style lang="scss">
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
+  width: 210mm;
+  margin: auto;
+}
+
+@media print {
+  @page
+  {
+    size: 210mm 297mm;
+    margin: 2cm 0 0 0;
+    /*margin: 0;*/
+    /*padding: 2cm;*/
+  }
+
+  @page :first {
+    margin: 0;
+  }
+
+  #app {
+    margin: 0;
+    padding: 2cm;
+    width: 100%;
+  }
 }
 </style>
