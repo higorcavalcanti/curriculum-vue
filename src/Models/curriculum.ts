@@ -25,7 +25,7 @@ export function getCurriculum(): Curriculum {
             { type: CONTATO_TIPOS.linkedin, linkedin: 'higor-cavalcanti' },
             { type: CONTATO_TIPOS.github, github: 'higorcavalcanti' },
         ],
-        apresentacao: 'Residente em Uberlândia, desenvolvedor Web em Angular e .NET, aplicativos híbridos com Ionic. Participante de 2 \'Maratona Mineira de Programação\' e 1 \'Maratona de Programação\' (nacional). ',
+        apresentacao: 'Desenvolvedor Web em Angular, por mais de 6 anos além de .NET Core e aplicativos híbridos com Ionic. Participante de 2 \'Maratona Mineira de Programação\' e 1 \'Maratona de Programação\' (nacional). ',
         competencias: [
             { nome: 'Javascript (Angular / Ionic)' },
             { nome: 'Inglês avançado' },
